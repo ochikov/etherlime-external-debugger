@@ -6,7 +6,7 @@ const debug = debugModule("debugger:ethersJS:adapter");
 
 export default class EthersJSAdapter {
   constructor(provider) {
-    this.ethersProvider = new ethers.providers.JsonRpcProvider('http://localhost:8545');
+    this.ethersProvider = new ethers.providers.JsonRpcProvider(provider.connection);
   }
 
   async getEthersTrace(txHash) {
