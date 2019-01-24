@@ -2,7 +2,7 @@
   "name": "etherlime-external-debugger",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "debugger.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,10 +22,6 @@
     "truffle-code-utils": "^1.1.3",
     "truffle-decode-utils": "^1.0.1",
     "truffle-decoder": "^1.0.2",
-    "truffle-solidity-utils": "^1.2.1",
-    "truffle-code-utils": "^1.1.3",
-    "truffle-decode-utils": "^1.0.1",
-    "truffle-decoder": "^1.0.2",
-    "truffle-solidity-utils": "^1.2.1",
+    "truffle-solidity-utils": "^1.2.1"
   }
 }
